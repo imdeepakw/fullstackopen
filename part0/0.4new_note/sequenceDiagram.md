@@ -1,4 +1,4 @@
-<pre> ```mermaid
+```mermaid
 sequenceDiagram
 participant client
 participant browser
@@ -15,4 +15,3 @@ browser-->>server: GET request https://studies.cs.helsinki.fi/exampleapp/main.js
 server-->>browser: Sends Javascript document
 browser-->>server: GET request https://studies.cs.helsinki.fi/exampleapp/data.json
 server-->>browser: Sends data.json file with its content
-```</pre>
