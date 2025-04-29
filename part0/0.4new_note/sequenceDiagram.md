@@ -1,10 +1,10 @@
 ```mermaid
 sequenceDiagram
-participant client
+participant user
 participant browser
 participant server
-client-->>browser: Writes a text in the form input
-client-->>browser: Clicks on the submit button
+user-->>browser: Writes a text in the form input
+user-->>browser: Clicks on the submit button
 browser-->>server: POST request to /exampleapp/new_note submitting the user input
 server-->>browser: Tells the browser to redirect to /exampleapp/new_note
 browser-->>server: GET request to https://studies.cs.helsinki.fi/exampleapp/notes
