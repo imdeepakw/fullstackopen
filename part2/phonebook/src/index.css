@@ -1,0 +1,17 @@
+.msg {
+    color: blue;
+    font-size: 20px;
+    background: grey;
+    border: 2px solid green;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.errMsg {
+    color: red;
+    font-size: 20px;
+    background: grey;
+    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 5px;
+}
